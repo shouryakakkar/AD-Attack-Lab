@@ -17,8 +17,8 @@ any interaction with the target account.
 
 ### 1\. Identified Kerberoastable Account
 
-\[INSERT SCREENSHOT → Page 3, Rubeus output showing
-svcbackup as kerberoastable user with full hash]
+<img width="1633" height="774" alt="image" src="https://github.com/user-attachments/assets/8097e226-44f2-4570-9cd0-b1282362f53e" />
+
 
 Target account: svcbackup
 SPN: HTTP/backup.lab.local
@@ -28,9 +28,8 @@ SPN: HTTP/backup.lab.local
 Command run:
 .\\Rubeus.exe kerberoast /outfile:hashes.txt
 Hash saved to: C:\\Tools\\hashes.txt
+<img width="1635" height="831" alt="image" src="https://github.com/user-attachments/assets/3db69cbf-bde7-405a-a35a-5bdc92584961" />
 
-\[INSERT SCREENSHOT → Page 4, showing hashes.txt
-file in C:\\Tools folder]
 
 ## Detection
 
