@@ -18,11 +18,11 @@ Kerberoastable:
 setspn -a HTTP/backup.lab.local svcbackup
 
 ## Client Setup
+<img width="1531" height="771" alt="image" src="https://github.com/user-attachments/assets/9194cfbe-dd18-4877-857a-ee373a3f4bc6" />
+
+
+
 <img width="1529" height="787" alt="image" src="https://github.com/user-attachments/assets/2a1c11e8-fd07-4468-81ce-30c97064f955" />
-
-
-<img width="1535" height="775" alt="image" src="https://github.com/user-attachments/assets/5f506607-80fe-4ca5-9bbf-5b9b562ae102" />
-
 
 - Windows 11 Enterprise joined to lab.local domain
 - DNS pointed to Domain Controller IP (192.168.30.141)
