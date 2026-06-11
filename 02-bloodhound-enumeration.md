@@ -13,29 +13,30 @@ visualises it.
 ## Steps
 
 ### 1. Ran SharpHound Collection
-[INSERT SCREENSHOT → Page 4, SharpHound running 
-showing "Happy Graphing!" completion message]
+<img width="1636" height="814" alt="image" src="https://github.com/user-attachments/assets/ac7e6ccd-002f-43ec-8481-269104872245" />
+<img width="1635" height="538" alt="image" src="https://github.com/user-attachments/assets/4f7ff808-3c5b-4b92-83bf-25e3744fac97" />
+<img width="1636" height="767" alt="image" src="https://github.com/user-attachments/assets/03a7f2c0-8557-43ae-b62c-5281062ae6a9" />
+
 
 Command:
 .\SharpHound.exe -c All
 Collected: 302 objects, 1747 relationships
 
 ### 2. Imported Data into BloodHound
-[INSERT SCREENSHOT → Page 7, Database Info showing:
-Users: 6, Groups: 32, Computers: 1, OUs: 2, 
-Relationships: 1747]
+<img width="1640" height="821" alt="image" src="https://github.com/user-attachments/assets/e03f52b7-492b-46f7-b431-3ec006d9dd3b" />
+
 
 ### 3. Identified Domain Admins
-[INSERT SCREENSHOT → Page 6, BloodHound graph 
-showing "Find all Domain Admins" query result]
+<img width="1637" height="830" alt="image" src="https://github.com/user-attachments/assets/8ae297ea-9035-4e14-b935-31d9711997f8" />
+
 
 ### 4. Analysed Administrator Account
-[INSERT SCREENSHOT → Page 7, ADMINISTRATOR@LAB.LOCAL 
-Node Info panel]
+<img width="1632" height="830" alt="image" src="https://github.com/user-attachments/assets/8429e52e-1939-46bd-9266-b690187d92da" />
+
 
 ### 5. Kerberoastable Accounts
-[INSERT SCREENSHOT → Page 6, BloodHound Analysis 
-panel showing Kerberos Interaction section]
+<img width="1637" height="834" alt="image" src="https://github.com/user-attachments/assets/c3e502da-526a-4c7b-8d00-125b6bf5b98e" />
+
 
 ## Detection
 - Monitor for LDAP queries collecting large amounts 
