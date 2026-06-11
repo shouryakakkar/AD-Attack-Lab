@@ -20,9 +20,11 @@ setspn -a HTTP/backup.lab.local svcbackup
 ## Client Setup
 <img width="1531" height="771" alt="image" src="https://github.com/user-attachments/assets/9194cfbe-dd18-4877-857a-ee373a3f4bc6" />
 
+<img width="1305" height="662" alt="image" src="https://github.com/user-attachments/assets/af8e0b4e-0e3a-48ef-aa43-03b0caa265b1" />
 
 
 <img width="1529" height="787" alt="image" src="https://github.com/user-attachments/assets/2a1c11e8-fd07-4468-81ce-30c97064f955" />
+<img width="1304" height="686" alt="image" src="https://github.com/user-attachments/assets/fc6f9c13-40eb-4fcd-8510-7fdffcc65ba0" />
 
 - Windows 11 Enterprise joined to lab.local domain
 - DNS pointed to Domain Controller IP (192.168.30.141)
