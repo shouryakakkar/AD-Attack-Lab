@@ -29,4 +29,4 @@ security techniques in an isolated environment.
   LSASS memory access — defensive control documented
 
 ## Setup Guide
-See [Lab Setup](lab-setup.md)
+See [Lab Setup](lab_setup.md)
